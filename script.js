@@ -9,7 +9,6 @@ const gifStages = [
     "gif/8.jpg",                //真的是最後一次機會了！ 你再說不！😭
     "gif/6.jpg", //"不要就不要 掰掰"  // 7 crying runaway
     "gif/byebye.jpg",
-    "gif/end.png"
 ]
 
 const noMessages = [
