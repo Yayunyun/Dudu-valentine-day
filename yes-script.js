@@ -2,7 +2,7 @@ const celebrateImages = [
     "gif/Screen Shot 2026-02-13 at 9.47.06 PM.png",  // First Yes click (before any tease)
     "gif/secondyes.jpg",  // Second Yes click (1st tease message)
     "gif/JPEG image-40F3-BABA-D8-0.jpg",  // Third Yes click (2nd tease message)
-    "gif/JPEG image-440F-85B0-A8-0.jpg"   // Fourth+ Yes click (3rd+ tease messages)
+    "gif/end.png"   // Fourth+ Yes click (3rd+ tease messages)
 ]
 
 let musicPlaying = false
