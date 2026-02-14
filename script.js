@@ -4,9 +4,9 @@ const gifStages = [
     "gif/3.jpg",             // 2 pleading
     "gif/4.JPEG",             // 3 sad
     "gif/5.JPEG",       // 4 sadder
-    "gif/最幸福的寶寶！.jpg",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif",
+    "gif/6.jpg",             // 5 devastated
+    "gif/7.jpg",               // 6 very devastated
+    "gif/8.jpg",
     "gif/IMG_5681959AC3A6-1.JPEG",
     "gif/Screen Shot 2026-02-13 at 9.47.06 PM.png"  // 7 crying runaway
 ]
