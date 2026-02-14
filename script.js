@@ -11,21 +11,21 @@ const gifStages = [
 
 const noMessages = [
     "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
-    "Last chance! 😭",
+    "你確定麻? 🤔",
+    "再給你一次機會 🥺",
+    "你說不的話...嘟嘟真的會很難過...",
+    "雅筠會很生氣... 😢",
+    "Please?? 💔",
+    "不要挑戰雅筠寶寶的底線！...",
+    "真的是最後一次機會了！ 你再說不！😭",
     "You can't catch me anyway 😜"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "沒有強迫你說yes, 你可以點no😏",
+    "你點啊！點啊！點no啊！!!! 👀",
+    "雅筠不會發現你點no拉(by嘟嘟) 😈",
+    "嫩逼，不敢點no (by 嘟嘟again) 😏"
 ]
 
 let yesTeasedCount = 0
@@ -48,7 +48,7 @@ music.play().then(() => {
     // Fallback: unmute on first interaction
     document.addEventListener('click', () => {
         music.muted = false
-        music.play().catch(() => {})
+        music.play().catch(() => { })
     }, { once: true })
 })
 
