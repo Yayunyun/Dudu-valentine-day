@@ -109,7 +109,7 @@ function handleNoClick() {
     swapGif(gifStages[gifIndex])
 
     // Runaway starts at click 7
-    if (noClickCount >= 7 && !runawayEnabled) {
+    if (noClickCount >= 8 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
     }
