@@ -1,9 +1,9 @@
 const gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
-    "gif/Willyoubemyvalentines.jpg",  // 1 confused
-    "gif/再給你一次機會.jpg",             // 2 pleading
-    "gif/嘟嘟會很難過.JPEG",             // 3 sad
-    "gif/Please.jpg",       // 4 sadder
+    "gif/最幸福的寶寶！.jpg",    // 0 normal
+    "gif/2.jpg",  // 1 confused
+    "gif/3.jpg",             // 2 pleading
+    "gif/4.JPEG",             // 3 sad
+    "gif/5.JPEG",       // 4 sadder
     "gif/最幸福的寶寶！.jpg",             // 5 devastated
     "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif",
