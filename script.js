@@ -1,14 +1,13 @@
 const gifStages = [
     "gif/最幸福的寶寶！.jpg",    // 0 normal
-    "gif/2.jpg",  // 1 confused
-    "gif/3.jpg",             // 2 pleading
-    "gif/4.JPEG",             // 3 sad
-    "gif/5.JPEG",       // 4 sadder
-    "gif/6.jpg",             // 5 devastated
-    "gif/7.jpg",               // 6 very devastated
-    "gif/8.jpg",
-    "gif/IMG_5681959AC3A6-1.JPEG",
-    "gif/Screen Shot 2026-02-13 at 9.47.06 PM.png"  // 7 crying runaway
+    "gif/2-2.jpg",  // 1 你確定麻?
+    "gif/3.jpg",             // 2 再給你一次機會
+    "gif/2-2-3.jpg",             // 3 你說不的話...嘟嘟會很難過(精神分裂)...
+    "gif/5.JPEG",       // 4 雅筠會很生氣... 😢
+    "gif/6.jpg",             // 5 Please?? 💔
+    "gif/7-2.JPEG",               // 6 "不要挑戰雅筠寶寶的底線！..."
+    "gif/8.jpg",                //真的是最後一次機會了！ 你再說不！😭
+    "gif/byebye.jpg", //"不要就不要 掰掰"  // 7 crying runaway
 ]
 
 const noMessages = [

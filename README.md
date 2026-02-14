@@ -9,7 +9,7 @@ A fun, interactive Valentine's Day page where the "Yes" button grows bigger ever
 
 ## Want to Use This to Impress Your GF/Wife?
 
-You've got three options — pick whatever works for you. *
+You've got three options — pick whatever works for you. xx
 
 ---
 
