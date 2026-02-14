@@ -72,13 +72,12 @@ function toggleMusic() {
 function handleYesClick() {
     if (!runawayEnabled) {
         // Tease her to try No first
-        const msg = yesTeasePokes[Math.min(yeaTeasedCount, yesTeasePokes.length - 1)]
+        const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
         yesTeasedCount++
         showTeaseMessage(msg)
         return
     }
-    // Pass the yes tease count to the yes page
-    window.location.href = 'yes.html?yesTease=' + yesTeasedCount
+    window.location.href = 'yes.html'
 }
 
 function showTeaseMessage(msg) {
