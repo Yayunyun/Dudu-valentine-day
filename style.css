@@ -21,7 +21,10 @@ body {
 /* Floating hearts background */
 .hearts-bg {
     position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     pointer-events: none;
     z-index: 0;
     overflow: hidden;
@@ -46,8 +49,15 @@ body {
 }
 
 @keyframes floatHearts {
-    from { transform: translateY(0); opacity: 0.15; }
-    to { transform: translateY(-110vh); opacity: 0; }
+    from {
+        transform: translateY(0);
+        opacity: 0.15;
+    }
+
+    to {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
 }
 
 .container {
@@ -67,8 +77,15 @@ h1 {
 }
 
 @keyframes wiggle {
-    0%, 100% { transform: rotate(-1deg); }
-    50% { transform: rotate(1deg); }
+
+    0%,
+    100% {
+        transform: rotate(-1deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
 }
 
 .gif-container {
@@ -78,10 +95,10 @@ h1 {
 }
 
 #cat-gif {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     object-fit: contain;
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.15));
     transition: opacity 0.3s ease;
 }
 
@@ -183,8 +200,13 @@ h1 {
 }
 
 @keyframes bounceTitle {
-    from { transform: translateY(0) rotate(-1deg); }
-    to { transform: translateY(-12px) rotate(1deg); }
+    from {
+        transform: translateY(0) rotate(-1deg);
+    }
+
+    to {
+        transform: translateY(-12px) rotate(1deg);
+    }
 }
 
 .yes-message {
@@ -196,8 +218,15 @@ h1 {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .yes-container #cat-gif {
