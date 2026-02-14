@@ -22,7 +22,7 @@ const noMessages = [
 ]
 
 const yesTeasePokes = [
-    "沒有強迫你說yes, 你可以點no😏",
+    "你其實可以點no",
     "你點啊！點啊！點no啊！!!! 👀",
     "雅筠不會發現你點no拉(by嘟嘟) 😈",
     "嫩逼，不敢點no (by 嘟嘟again) 😏"
@@ -108,8 +108,8 @@ function handleNoClick() {
     const gifIndex = Math.min(noClickCount, gifStages.length - 1)
     swapGif(gifStages[gifIndex])
 
-    // Runaway starts at click 7
-    if (noClickCount >= 8 && !runawayEnabled) {
+    // Runaway starts at click 9
+    if (noClickCount >= 9 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
     }
