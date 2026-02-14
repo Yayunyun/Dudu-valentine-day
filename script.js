@@ -75,7 +75,8 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    window.location.href = 'yes.html'
+    // Pass the yes tease count to the yes page
+    window.location.href = 'yes.html?yesTease=' + yesTeasedCount
 }
 
 function showTeaseMessage(msg) {
