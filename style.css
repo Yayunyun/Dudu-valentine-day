@@ -284,3 +284,9 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+.yes-celebration {
+    width: 600px !important;
+    /* Make it bigger on yes page */
+    height: 600px !important;
+}
