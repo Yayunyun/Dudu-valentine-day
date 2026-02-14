@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: #FFE4E8;
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
@@ -16,10 +16,61 @@ body {
         radial-gradient(circle at 15% 85%, #ffb3c1 0%, transparent 40%),
         radial-gradient(circle at 85% 15%, #ff8fa3 0%, transparent 40%),
         radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%);
+} */
+body {
+    background-color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 /* Floating hearts background */
+/* Floating hearts background */
 .hearts-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hearts-bg::before {
+    content: '❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️';
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0.2;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hearts-bg::after {
+    content: '❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️';
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0.2;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* .hearts-bg {
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +97,7 @@ body {
     animation-delay: 6s;
     left: 60%;
     content: '💗 💕 💓 💖 💝';
-}
+} */
 
 @keyframes floatHearts {
     from {
