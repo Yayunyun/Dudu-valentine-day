@@ -6,7 +6,9 @@ const gifStages = [
     "gif/Please.jpg",       // 4 sadder
     "gif/最幸福的寶寶！.jpg",             // 5 devastated
     "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif",
+    "gif/IMG_5681959AC3A6-1.JPEG",
+    "gif/Screen Shot 2026-02-13 at 9.47.06 PM.png"  // 7 crying runaway
 ]
 
 const noMessages = [
