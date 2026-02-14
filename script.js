@@ -30,6 +30,7 @@ const yesTeasePokes = [
     "點No看看拉!!(by 嘟嘟）👀",
     "雅筠不會發現你點no拉(by嘟嘟) 😈",
     "嫩逼，不敢點no (by 嘟嘟again) "
+    "你點no完我才要讓你點yes (by 嘟嘟）"
 ]
 
 let yesTeasedCount = 0
@@ -124,7 +125,7 @@ function swapGif(src) {
     setTimeout(() => {
         catGif.src = src
         catGif.style.opacity = '1'
-    }, 200)
+    }, 50)
 }
 
 function enableRunaway() {
